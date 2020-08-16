@@ -1,0 +1,24 @@
+<!DOCTYPE html >
+<html> 
+	<head> 
+                <script src="../js/visibility.js" type="text/javascript"></script> 
+	</head> 
+	<body> 
+		<form action="succesfully_submitted.html" method="post">
+			<p> Enter First Name:</p>
+			<p> <input type=text name="fname" required> </p>
+			<p> Enter Last Name:</p>
+			<p> <input type=text name="lname" required> </p>
+			<p> Enter E-Mail:</p>
+			<p> <input type=text name="mail" required> </p>
+			<p id="identity"> ID: </p>
+			<p><input type="radio" name="list" value="yes" id="Yes" onclick="display()"/>
+			<label for="Yes" id="yes"> Yes </label>
+			<input type="radio" name="list" value="no" id="No" onclick="visibility()"/>
+			<label for="No" id="no"> No </label>
+			</p>
+			<p><input type="file" size="30" required></p>
+			<input value="Submit" type="submit">
+		</form>
+	</body> 
+</html> 
